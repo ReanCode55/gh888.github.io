@@ -1,0 +1,9 @@
+$("#btn-menu").click(function(){
+    $(".menu").show(300);
+});
+$("#close-menu").click(function(){
+    $(".menu").hide(300);
+});
+$("#search-btn").click(function(){
+    $(".box-search-mobile-menu").slideToggle(300);
+});
